@@ -1,9 +1,11 @@
 import './App.css';
-import Color from './Color';
+import HandleForm from './HandleForm';
+// import Color from './Color';
 function App() {
   return (
     <div className="App">
-     <Color/>
+     {/* <Color/> */}
+      <HandleForm/>
     </div>
   );
 }
