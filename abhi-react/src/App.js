@@ -1,11 +1,16 @@
 import './App.css';
-import HandleForm from './HandleForm';
+import { Mount, Should, Update, Snapshot} from './Mount';
+// import HandleForm from './HandleForm';
 // import Color from './Color';
 function App() {
   return (
     <div className="App">
      {/* <Color/> */}
-      <HandleForm/>
+      {/* <HandleForm/> */}
+      <Mount/>
+      <Should/>
+      <Update/>
+      <Snapshot/>
     </div>
   );
 }
